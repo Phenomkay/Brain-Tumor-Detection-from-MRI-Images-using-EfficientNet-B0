@@ -62,13 +62,13 @@ The dataset is slightly imbalanced, with more tumor samples than non-tumor sampl
 
 ## Data Exploration
 
-### Tumor Samples
+### Tumor Samples and Non-Tumor Samples
 
-![Tumor Samples](sandbox:/mnt/data/03a78830-baf1-4394-8adc-be2fa7a28502.png)
+![Tumor Samples](https://github.com/Phenomkay/Brain-Tumor-Detection-from-MRI-Images-using-EfficientNet-B0/blob/b05c0d77fc19a4d450cc25005a5acf7b374e225b/sample%20from%20class%20yes.png)
 
 ### Non-Tumor Samples
 
-![Non-Tumor Samples](sandbox:/mnt/data/b2662329-38ab-4757-88e5-0b5ac2cac679.png)
+![Non-Tumor Samples](https://github.com/Phenomkay/Brain-Tumor-Detection-from-MRI-Images-using-EfficientNet-B0/blob/b05c0d77fc19a4d450cc25005a5acf7b374e225b/sample%20from%20class%20no.png)
 
 **Insights:**
 
@@ -139,7 +139,7 @@ This was done in order to balance the influence of each class during training.
 
 ### Accuracy Over Epochs
 
-![Accuracy Curve](sandbox:/mnt/data/4dfec982-1371-42d4-b12e-944b0a15e2ec.png)
+![Accuracy Curve](https://github.com/Phenomkay/Brain-Tumor-Detection-from-MRI-Images-using-EfficientNet-B0/blob/b05c0d77fc19a4d450cc25005a5acf7b374e225b/model%20accuracy%20over%20epochs.png)
 
 **Observations:**
 
@@ -156,7 +156,7 @@ This was done in order to balance the influence of each class during training.
 
 ## Prediction Results
 
-![Predictions](sandbox:/mnt/data/2f888729-f00e-4e31-ab23-f1865042d588.png)
+![Predictions](https://github.com/Phenomkay/Brain-Tumor-Detection-from-MRI-Images-using-EfficientNet-B0/blob/35e518f26af2ed2172999c79cbc89d0fa44667f8/Predictions.png)
 
 **Observations:**
 
@@ -172,7 +172,7 @@ The model is reliable in distinguishing between tumor and non-tumor images, achi
 
 ## Model Interpretability (Grad-CAM)
 
-![Grad-CAM Heatmap](sandbox:/mnt/data/6f0b3bdb-1c60-4f3b-9b38-3f8c2b7d7e7a.png)
+![Grad-CAM Heatmap](https://github.com/Phenomkay/Brain-Tumor-Detection-from-MRI-Images-using-EfficientNet-B0/blob/35e518f26af2ed2172999c79cbc89d0fa44667f8/Grad%20CAM%20Heatmap.png)
 
 **Analysis:**
 
